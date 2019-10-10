@@ -1,18 +1,30 @@
 .first-box-container {
   width: 200px;
   height: 100px;
-  position: absolute;
-  top: 10;
+  position: fixed;
+  top: 10px;
+  color: blue;
   background-color: red;
+  border-style: solid;
+  border-width: 10px;
+  border-color: green;
+  text-transform: uppercase;
+  
 }
 
 .second-box-container {
   width: 200px;
   height: 100px;
   left: 250px;
-  position: absolute;
-  top: 10;	
+  position: fixed;
+  top: 10px;
+  color: blue;	
   background-color: yellow;
+  border-style: solid;
+  border-color: red;
+  border-width: 10px;
+  text-transform: uppercase;
+  
 }
 
 .third-box-container {
@@ -20,6 +32,16 @@
   height: 100px;
   left: 500px;
   position: absolute;
-  top: 10;	
+  color: blue;
+  top: 10px;	
   background-color: green;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 10px;
+  text-transform: uppercase;
+  
+}
+
+p {
+  text-align: center;
 }
